@@ -1,0 +1,220 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0176d3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#032d60;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="platformGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#54698d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dataGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16325c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1b2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#032d60">Arquitectura General de Salesforce</text>
+  
+  <!-- User Interface Layer -->
+  <rect x="50" y="60" width="1100" height="120" fill="url(#cloudGradient)" rx="10" stroke="#032d60" stroke-width="2"/>
+  <text x="600" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Capa de Interfaz de Usuario</text>
+  
+  <!-- UI Components -->
+  <rect x="80" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="155" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">Lightning Experience</text>
+  <text x="155" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">Web UI</text>
+  
+  <rect x="250" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="325" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">Salesforce Mobile</text>
+  <text x="325" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">iOS/Android</text>
+  
+  <rect x="420" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="495" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">Visualforce</text>
+  <text x="495" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">Custom Pages</text>
+  
+  <rect x="590" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="665" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">Lightning Components</text>
+  <text x="665" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">LWC/Aura</text>
+  
+  <rect x="760" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="835" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">APIs & Integration</text>
+  <text x="835" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">REST/SOAP</text>
+  
+  <rect x="930" y="100" width="150" height="60" fill="#ffffff" rx="5" stroke="#0176d3" stroke-width="1"/>
+  <text x="1005" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#032d60">Third-Party Apps</text>
+  <text x="1005" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#032d60">AppExchange</text>
+  
+  <!-- Application Layer -->
+  <rect x="50" y="200" width="1100" height="140" fill="url(#platformGradient)" rx="10" stroke="#2c3e50" stroke-width="2"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Capa de Aplicación</text>
+  
+  <!-- Cloud Services -->
+  <rect x="80" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="145" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Sales Cloud</text>
+  <text x="145" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">CRM</text>
+  <text x="145" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Leads, Accounts</text>
+  <text x="145" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Opportunities</text>
+  
+  <rect x="230" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="295" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Service Cloud</text>
+  <text x="295" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Cases</text>
+  <text x="295" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Knowledge Base</text>
+  <text x="295" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Live Agent</text>
+  
+  <rect x="380" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="445" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Marketing Cloud</text>
+  <text x="445" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Email Marketing</text>
+  <text x="445" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Journey Builder</text>
+  <text x="445" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Social Studio</text>
+  
+  <rect x="530" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="595" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Commerce Cloud</text>
+  <text x="595" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">B2B/B2C</text>
+  <text x="595" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Order Management</text>
+  <text x="595" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Personalization</text>
+  
+  <rect x="680" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="745" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Analytics Cloud</text>
+  <text x="745" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Einstein Analytics</text>
+  <text x="745" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Tableau CRM</text>
+  <text x="745" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Reports & Dashboards</text>
+  
+  <rect x="830" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="895" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Community Cloud</text>
+  <text x="895" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Experience Cloud</text>
+  <text x="895" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Partner Portal</text>
+  <text x="895" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Customer Portal</text>
+  
+  <rect x="980" y="245" width="130" height="80" fill="#ffffff" rx="5" stroke="#54698d" stroke-width="1"/>
+  <text x="1045" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Einstein AI</text>
+  <text x="1045" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Machine Learning</text>
+  <text x="1045" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Predictive Analytics</text>
+  <text x="1045" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Natural Language</text>
+  
+  <!-- Platform Layer -->
+  <rect x="50" y="360" width="1100" height="140" fill="#34495e" rx="10" stroke="#2c3e50" stroke-width="2"/>
+  <text x="600" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Salesforce Platform (Force.com)</text>
+  
+  <!-- Platform Components -->
+  <rect x="80" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Apex</text>
+  <text x="150" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Server-side Logic</text>
+  <text x="150" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Triggers</text>
+  <text x="150" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Classes</text>
+  
+  <rect x="240" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="310" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">SOQL/SOSL</text>
+  <text x="310" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Query Languages</text>
+  <text x="310" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Data Retrieval</text>
+  <text x="310" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Search</text>
+  
+  <rect x="400" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="470" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Workflow & Flow</text>
+  <text x="470" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Process Builder</text>
+  <text x="470" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Flow Builder</text>
+  <text x="470" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Automation</text>
+  
+  <rect x="560" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="630" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Security Model</text>
+  <text x="630" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Profiles & Roles</text>
+  <text x="630" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Sharing Rules</text>
+  <text x="630" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Field-Level Security</text>
+  
+  <rect x="720" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="790" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">APIs</text>
+  <text x="790" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">REST/SOAP</text>
+  <text x="790" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Bulk API</text>
+  <text x="790" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Streaming API</text>
+  
+  <rect x="880" y="405" width="140" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="950" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">AppExchange</text>
+  <text x="950" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Marketplace</text>
+  <text x="950" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Managed Packages</text>
+  <text x="950" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Third-party Apps</text>
+  
+  <rect x="1040" y="405" width="110" height="80" fill="#ffffff" rx="5" stroke="#34495e" stroke-width="1"/>
+  <text x="1095" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Metadata API</text>
+  <text x="1095" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Deployment</text>
+  <text x="1095" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Configuration</text>
+  <text x="1095" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">DevOps</text>
+  
+  <!-- Data Layer -->
+  <rect x="50" y="520" width="1100" height="140" fill="url(#dataGradient)" rx="10" stroke="#0d1b2a" stroke-width="2"/>
+  <text x="600" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Capa de Datos</text>
+  
+  <!-- Data Components -->
+  <rect x="80" y="565" width="160" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="160" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">Multi-Tenant Database</text>
+  <text x="160" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Oracle Database</text>
+  <text x="160" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Shared Infrastructure</text>
+  <text x="160" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Data Isolation</text>
+  
+  <rect x="260" y="565" width="160" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="340" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">Standard Objects</text>
+  <text x="340" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Account, Contact</text>
+  <text x="340" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Opportunity, Lead</text>
+  <text x="340" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Case, Product</text>
+  
+  <rect x="440" y="565" width="160" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="520" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">Custom Objects</text>
+  <text x="520" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">User-Defined</text>
+  <text x="520" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Custom Fields</text>
+  <text x="520" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Relationships</text>
+  
+  <rect x="620" y="565" width="160" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="700" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">Big Objects</text>
+  <text x="700" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Large Data Sets</text>
+  <text x="700" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Archive Data</text>
+  <text x="700" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Analytics</text>
+  
+  <rect x="800" y="565" width="160" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="880" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">External Objects</text>
+  <text x="880" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">External Data</text>
+  <text x="880" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">OData/REST</text>
+  <text x="880" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Real-time Access</text>
+  
+  <rect x="980" y="565" width="170" height="80" fill="#ffffff" rx="5" stroke="#16325c" stroke-width="1"/>
+  <text x="1065" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d1b2a">Data Storage & Backup</text>
+  <text x="1065" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Automatic Backup</text>
+  <text x="1065" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Disaster Recovery</text>
+  <text x="1065" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0d1b2a">Data Replication</text>
+  
+  <!-- Infrastructure Layer -->
+  <rect x="50" y="680" width="1100" height="80" fill="#1a252f" rx="10" stroke="#0d1b2a" stroke-width="2"/>
+  <text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Infraestructura Cloud</text>
+  
+  <!-- Infrastructure Components -->
+  <rect x="100" y="720" width="180" height="30" fill="#ffffff" rx="3" stroke="#1a252f" stroke-width="1"/>
+  <text x="190" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a252f">Global Data Centers</text>
+  
+  <rect x="300" y="720" width="180" height="30" fill="#ffffff" rx="3" stroke="#1a252f" stroke-width="1"/>
+  <text x="390" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a252f">Load Balancing & CDN</text>
+  
+  <rect x="500" y="720" width="180" height="30" fill="#ffffff" rx="3" stroke="#1a252f" stroke-width="1"/>
+  <text x="590" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a252f">Security & Compliance</text>
+  
+  <rect x="700" y="720" width="180" height="30" fill="#ffffff" rx="3" stroke="#1a252f" stroke-width="1"/>
+  <text x="790" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a252f">Monitoring & Analytics</text>
+  
+  <rect x="900" y="720" width="180" height="30" fill="#ffffff" rx="3" stroke="#1a252f" stroke-width="1"/>
+  <text x="990" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a252f">Scalability & Performance</text>
+  
+  <!-- Arrows showing data flow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- Vertical arrows -->
+  <line x1="200" y1="180" x2="200" y2="200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="340" x2="400" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="500" x2="600" y2="520" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="660" x2="800" y2="680" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+</svg>
